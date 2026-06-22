@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(70, 135, 232);
+    min-height: 100vh;
+}
+
+.main-div {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.upper-div {
+    flex: 1;
+    margin: 0;
+    display: flex;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    height: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.user-input-card{
+    width: 300px;
+    flex-shrink: 0;
+    min-height: 330px;
+    background: linear-gradient(180deg, #1a6fd4 0%, #3d8ef0 100%);
+    border-radius: 20px;
+    padding: 40px 30px;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 40px;
+}
+.city_name_text {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.city_name_input {
+    margin: 20px;
+    border-radius: 5px;
+    height: 30px;
+    width: 170px;
+}
+
+.search_button button {
+    margin: 20px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.weather-card {
+    width: 300px;
+    flex-shrink: 0;
+    min-height: 330px;
+    background: linear-gradient(180deg, #1a6fd4 0%, #3d8ef0 100%);
+    border-radius: 20px;
+    padding: 40px 30px;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+    left: 650px;
+    bottom: 40px;
+
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.city-name {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.region-country {
+    font-size: 16px;
+    margin: 8px 0 30px;
+    opacity: 0.9;
+}
+
+.temperature {
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.condition {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.feels-like {
+    font-size: 16px;
+    opacity: 0.9;
+}
+.lower-div-card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #1a6fd4;
+    border-radius: 20px;
+    margin: 20px;
+}
+.lower-div-boxs{
+    height: 250px;
+    width: 350px;
+    margin: 10px;
+    background-color: rgb(21, 18, 111);
+    border-radius: 10px;
+}

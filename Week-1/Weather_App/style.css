@@ -124,3 +124,14 @@ body {
     background-color: rgb(21, 18, 111);
     border-radius: 10px;
 }
+.lower-inner-div-box {
+    display: flex;
+    height: 110px;
+    width: 330px;
+    margin: 10px;
+    background-color: rgb(224 224 233);
+    border-radius: 5px;
+}
+.lower-inner-div-info{
+    margin: 20px;
+}

@@ -13,4 +13,13 @@ async function SearchWeather(){
     document.querySelector(".temperature").textContent = data.current.temp_c;
     document.querySelector(".condition").textContent = data.current.condition.text;
     document.querySelector(".feels-like").textContent = `Feels like ${data.current.feelslike_c}°C`;
+    document.querySelector(".wind_mph").textContent = `${data.current.wind_mph} mph`;
+    document.querySelector(".wind_dir").textContent = data.current.wind_dir;
+    document.querySelector(".gust_kph").textContent = `${data.current.gust_kph} km/h`;
+    document.querySelector(".humidity").textContent = `${data.current.humidity}%`;
+    document.querySelector(".cloud").textContent = `${data.current.cloud}%`;
+    document.querySelector(".pressure_mb").textContent = `${data.current.pressure_mb} mb`;
+    document.querySelector(".precip_mm").textContent = `${data.current.precip_mm} mm`;
+    document.querySelector(".feelslike_c").textContent = `${data.current.feelslike_c} °C`;
+    document.querySelector(".heatindex_c").textContent = `${data.current.heatindex_c} °C`;
 }
